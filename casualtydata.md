@@ -1,0 +1,1 @@
+searched last name cameron on http://www.cwgc.org/find-war-dead.aspx for deaths in the Canadian Armed Forces from jan 1 1940 to jan 1 1946. html for search is here: http://www.cwgc.org/find-war-dead.aspx?cpage=1 and downloaded excel file is saved to computer
