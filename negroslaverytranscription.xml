@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="000style.xsl"?>
+<teiCorpus>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitised and Encoded copy of Negro Slavery by Zachary MacAulay</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Transcribed from digital copy available from Recovered Histories at
+                    http://www.recoveredhistories.org/pamphlet1.php?page=1&amp;orderby=MaxID&amp;catid=66</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Negro Slavery; or, A View of Some of the More Prominent Features of
+                            that State of Society, as it Exists in the United States of America and
+                            in the Colonies of the West Indies, Especially in Jamaica</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Printed for Hatchard and Son, Piccadilly, and J. and A. Arch,
+                            Cornhill</publisher>
+                        <distributor>Sold Also by W. Graphel, Church street, and G. and J. Robison,
+                            Castle Street, Liverpool.</distributor>
+                        <date when="1823">1823</date>
+                        <pubPlace>
+                            <settlement>London</settlement>
+                        </pubPlace>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Transcribed by a student of Digital History at Sheffield Hallam
+                        University</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <biblScope>9</biblScope>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+             <p> ease of the Black population has a better chance of being at least understood by them than by us. Accordingly, in some of the old states, and in all which have recently been admitted into the Union, slavery has been formally excluded from their constitution. The whole of the Eastern and a great part of the Central States, and many englightened individuals even in southern provinces, particularly the Quakers, are declared enemies of the system of slavery. It is true, that, for the most part, they oppose it rather as a great political evil, than as a violation of the eternal obligations of humanity and justice: nevertheless, its exten is in this way gradually narrowing. With them there is no dispute, nor, indeed, can there be, respecting the opprobrious and humiliating facts of the case. With us, on the contrary, the only persons who, in general, have an oppurtunity of viewing with their own eyes the state of colonial bondage, are persons interested in upholding it. And they are induced by tenderness for their own reputation, as well as by the strong feeling of interest, and, we may add, by pride, to throw a veil over the enemies of the system, and to resist ever attempt to withdraw it. The advantage which America possesses in this important respect, would encourage a hope of the eventual extinction of this evil at no very distant period, at least, at an earlier period than it would be reasonable to expect it in our own colonial possessions, but for another circumstance on which <persName key="Hall, Francis" from="?" to="1833" role="author" ref="https://www.loc.gov/resource/lhbtn.26822/">Mr. Hall</persName>, incidentally, but feelingly, touches, and which must have a powerful influence in perpetuating the miseries of slavery in the United States; we mean, <interp key="I think this claim is somewhat true because of human's adaptability but some events humans can not bounce back from" n="There are also some changes we don’t get used to so easily: divorce, the death of a spouse, unemployment and disability can each have lasting negative effects.." cert="medium" ref="https://www.ft.com/content/8bbec2f4-f8e2-11e4-8e16-00144feab7de">the force of habit</interp>. Let any one consider, for a moment, the different sensations which an individual who had never witnessed the infliction of a wound, and a practised surgeon, would regard the amputation of a limb;-or the disgust which would be excited in an inhabitant of some splendid mansion in <placeName key="London, United Kingdom" ref="https://tools.wmflabs.org/geohack/geohack.php?pagename=Grosvenor_Square"&"params=51_30_41_N_0_09_05_W_type:landmark_region:GB">
+             Grosvenor Square</placeName>, on being admitted, for the first time, to the occupancy of an apartment in the Borough Compter or Bristol Jail, as compared with the feelings of some old offender who was familiar with all the filth and abominations of the place. A similar difference will be found to exist in the feelings of the man who had a near view of slavery for the first time, and of him whose eye has become familiar with its horrors, or has, perhaps, been accustomed to them from infancy. It cannot be expected that a person born and educated in Carolina, or in <placeName key="Jamaica" ref="https://en.wikipedia.org/wiki/Jamaica">Jamaica</placeName>, should be shocked by those parts of the slave system, which, if viewed by a person of common sensibility for the first time, would fill him with disgust and horror. In one respect, therefore, we are more advantageously situated in this country than in America for judging accurately of the effects of the slave system. The natural feelings which they are calculated to excite are less blunted by familiarity. These remarks are illustrated by what <persName key="Hall, Francis" from="?" to="1833" role="author" ref="https://www.loc.gov/resource/lhbtn.26822/">Mr. Hall</persName> tells us of the impression he received, when, in travelling southward from <placeName key="Philadelphia, United States" ref="https://tools.wmflabs.org/geohack/geohack.php?pagename=Philadelphia"&"params=39_57_N_75_10_W_region:US-PA_type:city(1526006)">Philadelphia</placeName>, he first entered the slave states.</p><p>"The houses, universally shaded with virandas, seem to give notice of a southern climare; the huts round them, open to the elements, and void of every intention of comfort, tell a less pleasing tale: they inform the traveller he has entered upon a land of masters and slaves, and he beholds the scene marred with wretched dwellings and wretched faces. The eye, which for the first time looks on a slace, feels a painful impression: he is one for whom the laws of humanity are reversed, who has known nothing of society but its injustice, nothing of his fellow-man but his hardened, undisguised, atrocious selfishness. The cowering humility, the expression of servile respect, with which the Negro approaches the White man, strike on the"</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
