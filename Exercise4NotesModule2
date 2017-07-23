@@ -1,0 +1,11 @@
+I tried to use "$ sudo apt-get install jq -y" to install jq and got a bash error
+i realized I had to delete the "$" as there is already one at the command line of DHBOX
+it asks for a "sudo password" so I entered my DHBOX password 
+it tells me it is setting up jq 
+i make a new directory m2e4 and "change" into using the command "cd"
+I check I'm there using "pwd" but I can already see I'm in the directory m2e4 because my command line says ":/m2e4$"
+I make the empty touch shell folder with "touch canadiana.sh"
+I copy the edited program from ian milligan in canadiana.sh, save my changes and exit
+I change the permissions on the file as indicated in the instructions using "chmod 755 canadiana.sh"
+I run the program using "./canadiana.sh" and see several columns appear which show the speed the program is downloading at 
+WHen it is complete I download the output.txt from folder m2e4 and save it my respository at github!
