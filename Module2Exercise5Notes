@@ -1,0 +1,19 @@
+I was able to set up my twitter account (halifaxhistory7) 
+I opened up the new twitter application and got to twarc
+I copied the access and consumer keys (secret and otherwise) for twarc into a text document on my computer (that won't be uploaded online)
+When I was searching for hashtags I used canada150
+so in dhbox I entered "sudo tward configure" and put in my access and consumer keys
+I then entered "twarc search canada150> search.json
+I encountered a lot of trouble here as nothing seemed to appear on my screen
+After talking to professor graham I entered ctrl+C to stop the search as it was yielding too many results
+I found a search.json text document in my file manager of DHbox 
+I then tried to follow  the instructions on Slack for converting .json to .csv
+I crashed DHBox by trying to copy and paste the long text document search.json
+I decided while I waited for a response by my peers/professor graham to use the example he had given of sarahmcole's tweets
+dr. grapham's twarc json to csv exercise steps were followed but I encountered an error with my python version
+I copied sarahmcole's tweet ids into a new file ids.txt (using nano ids.txt) and saved it
+I hydrated the data using twarc hydrate ids.txt > tweets.json and made sure I they were changed in the file tweets.json
+This worked fine. I then went to Twarc repo's utilities and copied the code into a new file in Dhbox: json2csv.py
+I saved this. 
+Now comes the error: I tried to run the python script using the command "python json2csv.py tweets.json  out.csv and was prompted that python v3 was needed
+I downloaed python v3 to my windows but it did not seem to register in DHbox when I tried to run the python script again
