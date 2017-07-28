@@ -1,0 +1,16 @@
+I downloaded the texas repository file using curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+I then used "shift+CTRL+6" to highlight the text and "CTRL+k" to delete text that wasn't the index  of letters
+to delete the actual text of the letters took 40 minutes! Unsurprising when there was 1500+ letters to delete
+Once I had the ~2000 lines in file texas.txt I followed the instructions to create a backup file (texas.bak) and insert a "~" in every line that had a "to" in it
+This was the command I used: sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+I checked I had both files using "ls" and viewed my new file texas.txt and saw the "~" 
+Using the command  grep '~' texas.txt > index.txt I made a new file "index.txt" that has the index of letters with ~ at the start and removed everything else!
+We then had to figure out the "replace" to remove the extra coma and number from each letter index
+I figured out that sed -r -i.bak 's/(,)( [0-9]{4})(.+)/BLANK/g' index.txt was needed but wondered if I needed to include all 3 numbers
+3 numbers from the 3 "groups" of the pattern (,)( [0-9]{4})(.+)
+Thankfully prof. graham provided the correct pattern and I realised since we just wanted to keep group 2 in our text, that was what the replace was 
+step 4 used the pattern sed -r -i.bak 's/~//g' index.txt. this removedthe '~'
+step five used "sed -r -i.bak 's/(\b to \b)/,/g' index.txt" to remove the "to"s 
+I struggled with the grep to find the lines with three comas but after asking for help using the command "grep -E '.+,.+,.+' index.txt
+all the lines with three comas appeared in red and after struggling with DHBox freezing half way through my searches I was able to clean it uo
+I then created cleaned-correspondance.csv and finished exercise 1!
