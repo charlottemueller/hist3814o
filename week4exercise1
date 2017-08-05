@@ -1,0 +1,11 @@
+This was my first attempt at gephi analysis 
+Once gephi was downloaed I uploaed my cleaned texas correpondance file
+I had trouble uploading at first as a I got an error message saying that one of my rows was empty
+After re-opening my csv file I found the error on line 61 where there was a blank space in column 2 row 61
+I deleted this row and was able to upload to gephi
+It was interesting to see the letters visualized and then be able to "cut" smaller disconnected components 
+A new, more compact and organized shape emerges 
+The coloured and sized graphic now shows one network associated with the last president and the bottom network with the second president
+it was interesting to see how this visualization could be used to see connections between the frequency and prevalence of correspondance in different periods of the republic of texas
+I wonder what the significance is of an increase in correspondance from the first president to the second?
+I assume the increase in correspondance of the last president comes from the panic of the potential dissolution of the republic
